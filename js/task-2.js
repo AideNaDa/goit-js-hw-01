@@ -1,3 +1,6 @@
+var country
+var price
+var diliveryFee
 function getShippingMessage(country, price, diliveryFee) {
     return `"Shipping to ${country} will cost ${price + diliveryFee} credits"`;
 }
